@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @Description
@@ -19,12 +18,12 @@ import java.util.Map;
 @Component
 @EnableCaching
 public class UserDao {
-    private Map<Long, User> userMap;
+
+    private HashMap<Long, User> userMap = new HashMap<>();
 
     @PostConstruct
     public void init() {
         //模拟数据库
-        userMap = new HashMap<Long, User>();
         userMap.put(1L, new User(1L, "micro1"));
         userMap.put(2L, new User(2L, "micro2"));
     }
@@ -75,6 +74,6 @@ public class UserDao {
 
     @CacheEvict("user")
     public void removeFromCache(Long userId) {
-        return;
+
     }
 }

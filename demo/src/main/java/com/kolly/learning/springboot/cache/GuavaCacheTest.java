@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 public class GuavaCacheTest {
 
     private static LoadingCache<String, String> cache = CacheBuilder.newBuilder()
-            // 设置缓存在写入10分钟后，通过CacheLoader的load方法进行刷新
+            // 设置缓存在写入 10s 后，通过CacheLoader的load方法进行刷新
             .refreshAfterWrite(10, TimeUnit.SECONDS)
             .build(new CacheLoader<String, String>() {
                 @Override
                 public String load(String s) {
-                    if (s.equals("123")) {
+                    if (s.equals("key1")) {
                         return RandomStringUtils.random(20, true, true);
                     }
                     return RandomStringUtils.random(10, true, true);
@@ -28,11 +28,11 @@ public class GuavaCacheTest {
             });
 
     public static void main(String[] args) throws Exception {
-        cache.put("123", "xxxxxxxxxxxxx");
-        while (true) {
-            System.out.println(cache.get("123"));
-            System.out.println(cache.get("222"));
-            Thread.sleep(1000L);
+        cache.put("key1", "init data");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("key1 ===> " + cache.get("key1"));
+            System.out.println("key1 ===> " + cache.get("key2"));
+            Thread.sleep(3000L);
         }
     }
 }
