@@ -1,4 +1,4 @@
-package com.kolly.learning;
+package com.kolly.learning.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
