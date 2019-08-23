@@ -32,14 +32,14 @@ public class SpringAwareDemo implements BeanNameAware, ApplicationContextAware, 
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         this.beanFactory = beanFactory;
         System.out.println("通过 BeanFactoryAware 接口实现，获得了容器对象："
-                + this.beanFactory.toString().substring(0, 35) + "......");
+                + this.beanFactory.toString().substring(0, 64) + "......");
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
         System.out.println("通过 ApplicationContextAware 接口实现，获得了容器对象："
-                + this.applicationContext.toString().substring(0, 35) + "......");
+                + this.applicationContext.toString().substring(0, 64) + "......");
         FootballPlayer player = applicationContext.getBean("footballPlayer", FootballPlayer.class);
         player.setName("maladona");
         player.pass();

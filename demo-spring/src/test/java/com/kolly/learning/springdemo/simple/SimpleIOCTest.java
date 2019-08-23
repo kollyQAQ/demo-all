@@ -1,7 +1,7 @@
-package com.titizz.simulation.toyspring.simple;
+package com.kolly.learning.springdemo.simple;
 
-import com.titizz.simulation.toyspring.Car;
-import com.titizz.simulation.toyspring.Wheel;
+import com.kolly.learning.springdemo.Car;
+import com.kolly.learning.springdemo.Wheel;
 import org.junit.Test;
 
 /**

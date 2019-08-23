@@ -1,4 +1,4 @@
-package com.kolly.learning.learning;
+package com.kolly.learning;
 
 import org.junit.Test;
 

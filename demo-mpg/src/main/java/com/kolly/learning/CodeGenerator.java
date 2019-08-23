@@ -1,4 +1,4 @@
-package com.kolly.learning.learning;
+package com.kolly.learning;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
@@ -60,7 +60,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         //pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.kolly.learning.learning");
+        pc.setParent("com.kolly.learning");
         mpg.setPackageInfo(pc);
 
         InjectionConfig cfg = new InjectionConfig() {

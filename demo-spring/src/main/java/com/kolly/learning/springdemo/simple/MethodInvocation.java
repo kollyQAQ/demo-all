@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.simple;
+package com.kolly.learning.springdemo.simple;
 
 /**
  * Created by code4wt on 17/8/19.

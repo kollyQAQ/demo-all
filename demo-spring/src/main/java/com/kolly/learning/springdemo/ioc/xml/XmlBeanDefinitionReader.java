@@ -1,9 +1,9 @@
-package com.titizz.simulation.toyspring.ioc.xml;
+package com.kolly.learning.springdemo.ioc.xml;
 
-import com.titizz.simulation.toyspring.ioc.BeanDefinition;
-import com.titizz.simulation.toyspring.ioc.BeanDefinitionReader;
-import com.titizz.simulation.toyspring.ioc.BeanReference;
-import com.titizz.simulation.toyspring.ioc.PropertyValue;
+import com.kolly.learning.springdemo.ioc.BeanDefinition;
+import com.kolly.learning.springdemo.ioc.BeanDefinitionReader;
+import com.kolly.learning.springdemo.ioc.BeanReference;
+import com.kolly.learning.springdemo.ioc.PropertyValue;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

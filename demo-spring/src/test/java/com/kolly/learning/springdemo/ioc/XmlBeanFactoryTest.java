@@ -1,9 +1,9 @@
-package com.titizz.simulation.toyspring.ioc;
+package com.kolly.learning.springdemo.ioc;
 
-import com.titizz.simulation.toyspring.Car;
-import com.titizz.simulation.toyspring.HelloService;
-import com.titizz.simulation.toyspring.Wheel;
-import com.titizz.simulation.toyspring.ioc.xml.XmlBeanFactory;
+import com.kolly.learning.springdemo.Car;
+import com.kolly.learning.springdemo.HelloService;
+import com.kolly.learning.springdemo.Wheel;
+import com.kolly.learning.springdemo.ioc.xml.XmlBeanFactory;
 import org.junit.Test;
 
 /**

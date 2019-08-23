@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.aop;
+package com.kolly.learning.springdemo.aop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 

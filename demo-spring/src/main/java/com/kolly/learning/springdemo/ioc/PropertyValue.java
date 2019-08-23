@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.ioc;
+package com.kolly.learning.springdemo.ioc;
 
 /**
  * Created by code4wt on 17/8/3.

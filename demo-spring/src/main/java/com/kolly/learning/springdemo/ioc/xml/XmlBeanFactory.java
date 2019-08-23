@@ -1,11 +1,11 @@
-package com.titizz.simulation.toyspring.ioc.xml;
+package com.kolly.learning.springdemo.ioc.xml;
 
-import com.titizz.simulation.toyspring.ioc.BeanDefinition;
-import com.titizz.simulation.toyspring.ioc.BeanPostProcessor;
-import com.titizz.simulation.toyspring.ioc.BeanReference;
-import com.titizz.simulation.toyspring.ioc.PropertyValue;
-import com.titizz.simulation.toyspring.ioc.factory.BeanFactory;
-import com.titizz.simulation.toyspring.ioc.factory.BeanFactoryAware;
+import com.kolly.learning.springdemo.ioc.BeanDefinition;
+import com.kolly.learning.springdemo.ioc.BeanPostProcessor;
+import com.kolly.learning.springdemo.ioc.BeanReference;
+import com.kolly.learning.springdemo.ioc.PropertyValue;
+import com.kolly.learning.springdemo.ioc.factory.BeanFactory;
+import com.kolly.learning.springdemo.ioc.factory.BeanFactoryAware;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

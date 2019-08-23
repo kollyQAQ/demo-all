@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.simple;
+package com.kolly.learning.springdemo.simple;
 
 import java.lang.reflect.InvocationHandler;
 

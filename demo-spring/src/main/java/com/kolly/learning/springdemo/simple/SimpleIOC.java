@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.simple;
+package com.kolly.learning.springdemo.simple;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

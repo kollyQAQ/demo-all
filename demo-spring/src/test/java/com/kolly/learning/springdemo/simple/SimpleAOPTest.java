@@ -1,7 +1,7 @@
-package com.titizz.simulation.toyspring.simple;
+package com.kolly.learning.springdemo.simple;
 
-import com.titizz.simulation.toyspring.HelloService;
-import com.titizz.simulation.toyspring.HelloServiceImpl;
+import com.kolly.learning.springdemo.HelloService;
+import com.kolly.learning.springdemo.HelloServiceImpl;
 import org.junit.Test;
 
 /**

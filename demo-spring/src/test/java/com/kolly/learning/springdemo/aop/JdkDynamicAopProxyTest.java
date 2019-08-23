@@ -1,7 +1,7 @@
-package com.titizz.simulation.toyspring.aop;
+package com.kolly.learning.springdemo.aop;
 
-import com.titizz.simulation.toyspring.HelloService;
-import com.titizz.simulation.toyspring.HelloServiceImpl;
+import com.kolly.learning.springdemo.HelloService;
+import com.kolly.learning.springdemo.HelloServiceImpl;
 import org.junit.Test;
 
 import java.lang.reflect.Method;

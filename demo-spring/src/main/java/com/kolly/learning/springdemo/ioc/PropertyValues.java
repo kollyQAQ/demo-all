@@ -1,4 +1,4 @@
-package com.titizz.simulation.toyspring.ioc;
+package com.kolly.learning.springdemo.ioc;
 
 import java.util.ArrayList;
 import java.util.List;

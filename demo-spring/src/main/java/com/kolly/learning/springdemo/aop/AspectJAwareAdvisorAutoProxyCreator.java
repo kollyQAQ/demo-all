@@ -1,9 +1,9 @@
-package com.titizz.simulation.toyspring.aop;
+package com.kolly.learning.springdemo.aop;
 
-import com.titizz.simulation.toyspring.ioc.BeanPostProcessor;
-import com.titizz.simulation.toyspring.ioc.factory.BeanFactory;
-import com.titizz.simulation.toyspring.ioc.factory.BeanFactoryAware;
-import com.titizz.simulation.toyspring.ioc.xml.XmlBeanFactory;
+import com.kolly.learning.springdemo.ioc.BeanPostProcessor;
+import com.kolly.learning.springdemo.ioc.factory.BeanFactory;
+import com.kolly.learning.springdemo.ioc.factory.BeanFactoryAware;
+import com.kolly.learning.springdemo.ioc.xml.XmlBeanFactory;
 import org.aopalliance.intercept.MethodInterceptor;
 
 import java.util.List;
