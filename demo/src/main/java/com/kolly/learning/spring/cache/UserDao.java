@@ -1,4 +1,4 @@
-package com.kolly.learning.springboot.cache;
+package com.kolly.learning.spring.cache;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.cache.annotation.CacheEvict;

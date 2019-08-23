@@ -1,4 +1,4 @@
-package com.kolly.learning.springboot.cache;
+package com.kolly.learning.spring.cache;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

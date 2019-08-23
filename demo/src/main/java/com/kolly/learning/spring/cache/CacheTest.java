@@ -1,16 +1,15 @@
-package com.kolly.learning.springboot.cache;
+package com.kolly.learning.spring.cache;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @Description
  * @Author kolly.li
  * @Date 2019/7/1
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class CacheTest implements CommandLineRunner {
 
     @Autowired
